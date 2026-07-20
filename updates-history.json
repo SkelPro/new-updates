@@ -1,8 +1,8 @@
 {
   "news": [
     {
-      "title": "SkelPro Updates: Now with Update Notifications!",
-      "message": "Great news! SkelPro now sends updates\nnotifications straight to your console,\nno more checking manually. Stay up to date effortlessly!. \n\nMore exciting things are coming, so stay tuned!\n\n -- The SkelPro Team"
-    }
+      "title": "SkelPro Updates: Introducing Git Worktree Support for AI Agents!",
+      "message": "SkelPro now supports Git worktrees, allowing developers to create isolated development environments for AI agents and parallel workflows.\n\nCreate dedicated branches for your agents and work on multiple tasks independently without affecting your main project.\n\nExample:\nskelpro create agent-1 template.json --worktree --branch agent-feature\n\nMore powerful AI development workflows are coming soon!\n\n -- The SkelPro Team"
+    },
   ]
 }
