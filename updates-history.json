@@ -1,8 +1,12 @@
 {
   "news": [
     {
+      "title": "SkelPro Updates: Powerful AI Agent Workflows Are Here!",
+      "message": "SkelPro now supports improved Git worktree workflows for AI agents and parallel development.\n\nDevelopers can create isolated environments with custom Git branches, allowing multiple agents or tasks to work independently without affecting the main project.\n\nGenerated projects now use independent Git repositories, making worktree creation more reliable and preventing branch conflicts. Worktree cleanup has also been improved for a smoother development experience.\n\nSkelPro continues evolving with smarter project generation, better developer workflows, and more AI-powered development features coming soon.\n\n -- The SkelPro Team"
+    },
+    {
       "title": "SkelPro Updates: Introducing Git Worktree Support for AI Agents!",
       "message": "SkelPro now supports Git worktrees, allowing developers to create isolated development environments for AI agents and parallel workflows.\n\nCreate dedicated branches for your agents and work on multiple tasks independently without affecting your main project.\n\nExample:\nskelpro create agent-1 template.json --worktree --branch agent-feature\n\nMore powerful AI development workflows are coming soon!\n\n -- The SkelPro Team"
-    },
+    }
   ]
 }

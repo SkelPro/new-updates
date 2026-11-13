@@ -1,8 +1,8 @@
 {
   "news": [
     {
-      "title": "SkelPro Updates: Powerful AI Agent Workflows Are Here!",
-      "message": "SkelPro now supports improved Git worktree workflows for AI agents and parallel development.\n\nDevelopers can create isolated environments with custom Git branches, allowing multiple agents or tasks to work independently without affecting the main project.\n\nGenerated projects now use independent Git repositories, making worktree creation more reliable and preventing branch conflicts. Worktree cleanup has also been improved for a smoother development experience.\n\nSkelPro continues evolving with smarter project generation, better developer workflows, and more AI-powered development features coming soon.\n\n -- The SkelPro Team"
+      "title": "SkelPro 2.0: Template Variables, Structure Checks and an MCP Server for AI Agents",
+      "message": "SkelPro 2.0 is out, with the biggest set of changes since launch:\n\n- Template variables: {{placeholders}}, case helpers and optional files. Turn any project into a template with: skelpro save my-template ./my-app --var projectName=my-app\n- Agent-ready projects: new projects start with AGENTS.md and a .skelpro.json manifest. Add them to an existing project with: skelpro init-agents\n- skelpro check: catches structure drift in CI or a pre-commit hook.\n- MCP server: lets Claude, Cursor and Copilot use your templates. Setup: npx skelpro mcp --print-config\n- Agent worktrees: skelpro agents spawn <task> gives each agent its own branch and folder.\n\nAlso in this release: security fixes, plus fixes for images in templates, ignored folders and --install.\n\nSkelPro 2.0 requires Node.js 20 or newer. Update with: npm install -g skelpro@latest\n\n -- The SkelPro Team"
     }
   ]
 }
